@@ -9,4 +9,5 @@ module "vcn" {
   create_nat_gateway = true
   create_service_gateway = true
   vcn_cidrs = var.vcn_cidrs
+  vcn_dns_label = var.vcn_dns_label
 }
